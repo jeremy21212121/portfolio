@@ -1,0 +1,34 @@
+@import "fonts.scss";
+
+h1 {
+  font-size: 2rem;
+}
+.large-text {
+  font-size: 2.5rem;
+}
+.block {
+  display: block;
+}
+.css-typing {
+    width: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+}
+
+@keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+}
+
+.main {
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+  color: #B68215;
+  font-family: "Indie Flower"
+}
