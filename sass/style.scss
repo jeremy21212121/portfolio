@@ -27,8 +27,63 @@ h1 {
 
 .main {
   width: 80%;
-  height: 300px;
+  height: auto;
   margin: 0 auto;
   color: #B68215;
   font-family: "Indie Flower"
+}
+
+.portfolio {
+  width: 100%;
+  margin: 0 auto;
+  ul {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+.slick-slide {
+  transform: perspective(1000) scale(0.5) rotateY(0);
+  transition:all 500ms ease;
+
+}
+.prev {
+  // zoom: 40%;
+  box-shadow: -5px 5px 5px #fff;
+  transform:perspective(1000) scale(0.5) rotateY(30deg);
+  transform-style: preserve-3d;
+  transition:all 500ms ease;
+}
+.next {
+  // zoom: 40%;
+  box-shadow: 5px 5px 5px #fff;
+  transform:perspective(1000) scale(0.5) rotateY(-30deg);
+  transform-style: preserve-3d;
+  transition:all 500ms ease;
+}
+
+
+.slick-center {
+  // zoom: 80%;
+  box-shadow: none;
+  transform: perspective(1000) scale(0.8) rotateY(0) ;
+  transform-style: preserve-3d;
+
+  transition:all 500ms ease;
+
+}
+.slick-track {
+  transition:all 500ms ease;
+
+}
+
+.floater {
+  position: absolute;
+  top: 100px;
+  left: 44%;
+  width: 200px;
+  height: 45px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  text-align: center;
+  line-height: 0.5;
 }
