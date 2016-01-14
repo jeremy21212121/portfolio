@@ -41,7 +41,7 @@ h1 {
     width: 0; } }
 
 .main {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   color: #B68215;
@@ -96,3 +96,10 @@ h1 {
   border-radius: 16px;
   text-align: center;
   line-height: 0.5; }
+
+.social {
+  text-align: right;
+  width: 30%;
+  display: inline-block; }
+  .social i.fa {
+    margin: 0 5px; }
